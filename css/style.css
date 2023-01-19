@@ -28,15 +28,20 @@ h1 {
     color: rgb(229, 49, 112);
 }
 
-.cards {
+.container {
     float: left;
     width: calc(100% / 3);
+}
+
+.col{
+    margin: 10px;
+    height: 100px;
     background-color: black;
 }
 
 .clearfix::after {
     content: '';
-    clear:both;
+    clear: both;
     display: table;
 }
 
@@ -46,16 +51,18 @@ h2 {
 
 p {
     color: white;
-    font-weight: 400;
 }
 
 a {
     color: rgb(0, 147, 231);
-    font-weight: 400;
     text-decoration: none;
 }
 
 img {
     float: left;
+    height: 100%;
 }
 
+.card{
+    margin: 10px;
+}
