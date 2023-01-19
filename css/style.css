@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* regole debug */
+
+.debug {
+
+}
+
+
+/* css */
+
+body {
+    font-family: "fredoka", sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+.ele {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: rgb(229, 49, 112);
+}
+
+.cards {
+    float: left;
+    width: calc(100% / 3);
+    background-color: black;
+}
+
+.clearfix::after {
+    content: '';
+    clear:both;
+    display: table;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    color: rgb(0, 147, 231);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+img {
+    float: left;
+}
+
