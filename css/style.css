@@ -39,7 +39,12 @@ h1 {
     background-color: black;
 }
 
-.clearfix::after {
+img {
+    float: left;
+    height: 100%;
+}
+
+.clearfix img::after {
     content: '';
     clear: both;
     display: table;
@@ -58,11 +63,7 @@ a {
     text-decoration: none;
 }
 
-img {
-    float: left;
-    height: 100%;
-}
-
 .card{
-    margin: 10px;
+    height: 100%;
+    padding: 10px 0px 10px 120px;
 }
